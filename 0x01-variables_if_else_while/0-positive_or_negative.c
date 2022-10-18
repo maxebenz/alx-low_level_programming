@@ -2,7 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/* The progarm returns values */
+/**
+ * Main - print if the number is positive, zero or negative
+ *
+ * Description: The progarm prints programming is positive, zero or negative
+ * Return: 0
+ */
 
 int main(void)
 {
@@ -14,17 +19,17 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf("%d positive\n", n);
+		printf("%i positive\n", n);
 }
 
 	else if (n == 0)
 	{
-		printf("%d zero\n", n);
+		printf("%i zero\n", n);
 }
 
 	else if (n < 0)
 	{
-		printf("%d negative\n", n);
+		printf("%i negative\n", n);
 
 }
 
